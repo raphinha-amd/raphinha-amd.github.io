@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafinha | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="logo" href="#top">Rafinha</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          class="nav-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+        >
+          Menu
+        </button>
+      </div>
+      <div class="nav-backdrop" data-nav-close></div>
+      <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <button class="nav-close" type="button" aria-label="Close navigation">
+          <span aria-hidden="true">X</span>
+        </button>
+        <nav class="mobile-nav-links" aria-label="Mobile">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button primary" href="#projects">View Projects</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Developer / AI Enthusiast</p>
+            <h1>Building reliable products that feel effortless to use.</h1>
+            <p class="hero-tagline">
+              I design and ship full-stack applications with thoughtful UX,
+              clear architecture, and measurable impact.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button ghost" href="#contact">Contact Me</a>
+            </div>
+            <div class="hero-meta">
+              <span>Based in Lagos</span>
+              <span>Available for collaborations</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="profile-card">
+              <div class="profile-avatar">
+                <span>RA</span>
+              </div>
+              <div>
+                <p class="profile-name">Raffi Ahmad</p>
+                <p class="profile-role">Full-stack Engineer</p>
+              </div>
+              <div class="profile-stats">
+                <div>
+                  <p class="stat-value">6+</p>
+                  <p class="stat-label">Years building</p>
+                </div>
+                <div>
+                  <p class="stat-value">22</p>
+                  <p class="stat-label">Projects shipped</p>
+                </div>
+                <div>
+                  <p class="stat-value">4</p>
+                  <p class="stat-label">Industries</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero-orbit"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div>
+            <h2>About Me</h2>
+            <p class="section-lead">
+              I am a product-focused developer who loves pairing clean code with
+              clear storytelling. I collaborate with founders and teams to build
+              credible, scalable software that people actually enjoy using.
+            </p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <p class="timeline-year">2024 - Now</p>
+                <p class="timeline-role">Lead Engineer, Studio Nova</p>
+                <p class="timeline-detail">
+                  Built AI-assisted workflows that reduced customer support time
+                  by 38%.
+                </p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-year">2021 - 2024</p>
+                <p class="timeline-role">Senior Developer, Flowline</p>
+                <p class="timeline-detail">
+                  Delivered a real-time analytics platform used by 40+ teams.
+                </p>
+              </div>
+              <div class="timeline-item">
+                <p class="timeline-year">2018 - 2021</p>
+                <p class="timeline-role">Frontend Engineer, Brightly</p>
+                <p class="timeline-detail">
+                  Led the UI refresh and improved core product NPS by 12 points.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Skills</h3>
+            <div class="skill-group">
+              <p class="skill-title">Frontend</p>
+              <div class="chip-row">
+                <span class="chip">React</span>
+                <span class="chip">Next.js</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">CSS Architecture</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-title">Backend</p>
+              <div class="chip-row">
+                <span class="chip">Node.js</span>
+                <span class="chip">Python</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">GraphQL</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-title">Tools</p>
+              <div class="chip-row">
+                <span class="chip">Docker</span>
+                <span class="chip">AWS</span>
+                <span class="chip">Figma</span>
+                <span class="chip">GitHub Actions</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <p class="skill-title">AI</p>
+              <div class="chip-row">
+                <span class="chip">LLM Integrations</span>
+                <span class="chip">Vector Search</span>
+                <span class="chip">Prompt Design</span>
+                <span class="chip">RAG Pipelines</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-muted">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2>Projects Showcase</h2>
+              <p class="section-lead">
+                Selected builds that highlight end-to-end delivery, from insight
+                to measurable outcomes.
+              </p>
+            </div>
+            <a class="button ghost" href="#contact">Start a Project</a>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-thumb" aria-hidden="true"></div>
+              <h3>Atlas Analytics</h3>
+              <p>
+                Real-time product analytics with team dashboards and alerting
+                workflows.
+              </p>
+              <div class="chip-row">
+                <span class="chip">Next.js</span>
+                <span class="chip">D3</span>
+                <span class="chip">PostgreSQL</span>
+              </div>
+              <div class="card-actions">
+                <a class="button small" href="">Live Demo</a>
+                <a class="button small ghost" href="">Repository</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb alt" aria-hidden="true"></div>
+              <h3>Pulse Care</h3>
+              <p>
+                A telehealth experience with AI-assisted triage and secure
+                messaging.
+              </p>
+              <div class="chip-row">
+                <span class="chip">React</span>
+                <span class="chip">Python</span>
+                <span class="chip">AWS</span>
+              </div>
+              <div class="card-actions">
+                <a class="button small" href="">Live Demo</a>
+                <a class="button small ghost" href="">Repository</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb" aria-hidden="true"></div>
+              <h3>Signal Forge</h3>
+              <p>
+                Automated research tool combining vector search with weekly
+                intelligence reports.
+              </p>
+              <div class="chip-row">
+                <span class="chip">Node.js</span>
+                <span class="chip">Pinecone</span>
+                <span class="chip">LangChain</span>
+              </div>
+              <div class="card-actions">
+                <a class="button small" href="">Live Demo</a>
+                <a class="button small ghost" href="">Repository</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="project-details">
+            <details class="project-detail" open>
+              <summary>Atlas Analytics - Detail View</summary>
+              <div class="detail-body">
+                <div class="detail-media"></div>
+                <div>
+                  <p class="detail-title">Problem</p>
+                  <p>
+                    Teams lacked real-time visibility into conversion drop-offs
+                    across multi-step flows.
+                  </p>
+                  <p class="detail-title">Solution</p>
+                  <p>
+                    Designed a streaming event pipeline with live dashboards and
+                    anomaly alerts.
+                  </p>
+                  <p class="detail-title">Outcome</p>
+                  <p>
+                    Reduced time-to-insight from days to minutes and improved
+                    activation by 17%.
+                  </p>
+                </div>
+              </div>
+            </details>
+            <details class="project-detail">
+              <summary>Pulse Care - Detail View</summary>
+              <div class="detail-body">
+                <div class="detail-media alt"></div>
+                <div>
+                  <p class="detail-title">Problem</p>
+                  <p>
+                    Patients needed a faster way to get triage support without
+                    long wait times.
+                  </p>
+                  <p class="detail-title">Solution</p>
+                  <p>
+                    Built a secure telehealth app with AI-driven intake and
+                    routing.
+                  </p>
+                  <p class="detail-title">Outcome</p>
+                  <p>
+                    Reduced average response time by 42% and improved patient
+                    satisfaction.
+                  </p>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2>What I Do</h2>
+              <p class="section-lead">
+                Strategic development support for teams building modern digital
+                products.
+              </p>
+            </div>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-icon">01</div>
+              <h3>Product Engineering</h3>
+              <p>
+                Build and scale web applications with clean systems, metrics,
+                and maintainable architecture.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">02</div>
+              <h3>AI Integrations</h3>
+              <p>
+                Embed LLM features, retrieval pipelines, and automation into
+                existing products.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">03</div>
+              <h3>UX-Focused Frontend</h3>
+              <p>
+                Craft accessible, responsive interfaces with strong typography
+                and content flow.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">04</div>
+              <h3>Team Enablement</h3>
+              <p>
+                Set up design systems, documentation, and workflows for teams
+                shipping faster.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-muted">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p class="section-lead">
+              Interested in working together? Share a quick brief and I will
+              respond within 48 hours.
+            </p>
+            <div class="social-links">
+              <a href="">GitHub</a>
+              <a href="">LinkedIn</a>
+              <a href="mailto:hello@rafinha.dev">Email</a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Tell me about the project"
+              ></textarea>
+            </label>
+            <button class="button primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>Copyright 2026 Raffi Ahmad. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#top">Top</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const navToggle = document.querySelector(".nav-toggle");
+      const mobileNav = document.querySelector(".mobile-nav");
+      const navBackdrop = document.querySelector(".nav-backdrop");
+      const navLinks = document.querySelectorAll(".mobile-nav a");
+      const navClose = document.querySelector(".nav-close");
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      const closeNav = () => {
+        document.body.classList.remove("nav-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        mobileNav.setAttribute("aria-hidden", "true");
+      };
+
+      navToggle.addEventListener("click", () => {
+        const isOpen = document.body.classList.toggle("nav-open");
+        navToggle.setAttribute("aria-expanded", String(isOpen));
+        mobileNav.setAttribute("aria-hidden", String(!isOpen));
+      });
+
+      navBackdrop.addEventListener("click", closeNav);
+      navClose.addEventListener("click", closeNav);
+      navLinks.forEach((link) => link.addEventListener("click", closeNav));
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          closeNav();
+        }
+      });
+
+      mobileNav.addEventListener("touchstart", (event) => {
+        if (!document.body.classList.contains("nav-open")) {
+          return;
+        }
+        const touch = event.touches[0];
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+      });
+
+      mobileNav.addEventListener("touchend", (event) => {
+        if (!document.body.classList.contains("nav-open")) {
+          return;
+        }
+        const touch = event.changedTouches[0];
+        const deltaX = touch.clientX - touchStartX;
+        const deltaY = touch.clientY - touchStartY;
+
+        if (deltaX > 80 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          closeNav();
+        }
+      });
+    </script>
+  </body>
+</html>
