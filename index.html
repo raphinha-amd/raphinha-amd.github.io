@@ -4,439 +4,814 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rafinha | Software Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="Personal portfolio of a software developer focused on clean, reliable, and high-impact products."
     />
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-bar">
-        <a class="logo" href="#top">Rafinha</a>
-        <nav class="nav-links" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <button
-          class="nav-toggle"
-          aria-label="Open navigation"
-          aria-expanded="false"
-          aria-controls="mobile-nav"
-        >
-          Menu
-        </button>
-      </div>
-      <div class="nav-backdrop" data-nav-close></div>
-      <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
-        <button class="nav-close" type="button" aria-label="Close navigation">
-          <span aria-hidden="true">X</span>
-        </button>
-        <nav class="mobile-nav-links" aria-label="Mobile">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="button primary" href="#projects">View Projects</a>
-      </div>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Software Developer / AI Enthusiast</p>
-            <h1>Building reliable products that feel effortless to use.</h1>
-            <p class="hero-tagline">
-              I design and ship full-stack applications with thoughtful UX,
-              clear architecture, and measurable impact.
-            </p>
-            <div class="cta-row">
-              <a class="button primary" href="#projects">View Projects</a>
-              <a class="button ghost" href="#contact">Contact Me</a>
-            </div>
-            <div class="hero-meta">
-              <span>Based in Lagos</span>
-              <span>Available for collaborations</span>
-            </div>
-          </div>
-          <div class="hero-visual" aria-hidden="true">
-            <div class="profile-card">
-              <div class="profile-avatar">
-                <span>RA</span>
-              </div>
-              <div>
-                <p class="profile-name">Raffi Ahmad</p>
-                <p class="profile-role">Full-stack Engineer</p>
-              </div>
-              <div class="profile-stats">
-                <div>
-                  <p class="stat-value">6+</p>
-                  <p class="stat-label">Years building</p>
-                </div>
-                <div>
-                  <p class="stat-value">22</p>
-                  <p class="stat-label">Projects shipped</p>
-                </div>
-                <div>
-                  <p class="stat-value">4</p>
-                  <p class="stat-label">Industries</p>
-                </div>
-              </div>
-            </div>
-            <div class="hero-orbit"></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="container about-grid">
-          <div>
-            <h2>About Me</h2>
-            <p class="section-lead">
-              I am a product-focused developer who loves pairing clean code with
-              clear storytelling. I collaborate with founders and teams to build
-              credible, scalable software that people actually enjoy using.
-            </p>
-            <div class="timeline">
-              <div class="timeline-item">
-                <p class="timeline-year">2024 - Now</p>
-                <p class="timeline-role">Lead Engineer, Studio Nova</p>
-                <p class="timeline-detail">
-                  Built AI-assisted workflows that reduced customer support time
-                  by 38%.
-                </p>
-              </div>
-              <div class="timeline-item">
-                <p class="timeline-year">2021 - 2024</p>
-                <p class="timeline-role">Senior Developer, Flowline</p>
-                <p class="timeline-detail">
-                  Delivered a real-time analytics platform used by 40+ teams.
-                </p>
-              </div>
-              <div class="timeline-item">
-                <p class="timeline-year">2018 - 2021</p>
-                <p class="timeline-role">Frontend Engineer, Brightly</p>
-                <p class="timeline-detail">
-                  Led the UI refresh and improved core product NPS by 12 points.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <h3>Skills</h3>
-            <div class="skill-group">
-              <p class="skill-title">Frontend</p>
-              <div class="chip-row">
-                <span class="chip">React</span>
-                <span class="chip">Next.js</span>
-                <span class="chip">TypeScript</span>
-                <span class="chip">CSS Architecture</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <p class="skill-title">Backend</p>
-              <div class="chip-row">
-                <span class="chip">Node.js</span>
-                <span class="chip">Python</span>
-                <span class="chip">PostgreSQL</span>
-                <span class="chip">GraphQL</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <p class="skill-title">Tools</p>
-              <div class="chip-row">
-                <span class="chip">Docker</span>
-                <span class="chip">AWS</span>
-                <span class="chip">Figma</span>
-                <span class="chip">GitHub Actions</span>
-              </div>
-            </div>
-            <div class="skill-group">
-              <p class="skill-title">AI</p>
-              <div class="chip-row">
-                <span class="chip">LLM Integrations</span>
-                <span class="chip">Vector Search</span>
-                <span class="chip">Prompt Design</span>
-                <span class="chip">RAG Pipelines</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section section-muted">
-        <div class="container">
-          <div class="section-header">
-            <div>
-              <h2>Projects Showcase</h2>
-              <p class="section-lead">
-                Selected builds that highlight end-to-end delivery, from insight
-                to measurable outcomes.
-              </p>
-            </div>
-            <a class="button ghost" href="#contact">Start a Project</a>
-          </div>
-
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-thumb" aria-hidden="true"></div>
-              <h3>Atlas Analytics</h3>
-              <p>
-                Real-time product analytics with team dashboards and alerting
-                workflows.
-              </p>
-              <div class="chip-row">
-                <span class="chip">Next.js</span>
-                <span class="chip">D3</span>
-                <span class="chip">PostgreSQL</span>
-              </div>
-              <div class="card-actions">
-                <a class="button small" href="">Live Demo</a>
-                <a class="button small ghost" href="">Repository</a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-thumb alt" aria-hidden="true"></div>
-              <h3>Pulse Care</h3>
-              <p>
-                A telehealth experience with AI-assisted triage and secure
-                messaging.
-              </p>
-              <div class="chip-row">
-                <span class="chip">React</span>
-                <span class="chip">Python</span>
-                <span class="chip">AWS</span>
-              </div>
-              <div class="card-actions">
-                <a class="button small" href="">Live Demo</a>
-                <a class="button small ghost" href="">Repository</a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-thumb" aria-hidden="true"></div>
-              <h3>Signal Forge</h3>
-              <p>
-                Automated research tool combining vector search with weekly
-                intelligence reports.
-              </p>
-              <div class="chip-row">
-                <span class="chip">Node.js</span>
-                <span class="chip">Pinecone</span>
-                <span class="chip">LangChain</span>
-              </div>
-              <div class="card-actions">
-                <a class="button small" href="">Live Demo</a>
-                <a class="button small ghost" href="">Repository</a>
-              </div>
-            </article>
-          </div>
-
-          <div class="project-details">
-            <details class="project-detail" open>
-              <summary>Atlas Analytics - Detail View</summary>
-              <div class="detail-body">
-                <div class="detail-media"></div>
-                <div>
-                  <p class="detail-title">Problem</p>
-                  <p>
-                    Teams lacked real-time visibility into conversion drop-offs
-                    across multi-step flows.
-                  </p>
-                  <p class="detail-title">Solution</p>
-                  <p>
-                    Designed a streaming event pipeline with live dashboards and
-                    anomaly alerts.
-                  </p>
-                  <p class="detail-title">Outcome</p>
-                  <p>
-                    Reduced time-to-insight from days to minutes and improved
-                    activation by 17%.
-                  </p>
-                </div>
-              </div>
-            </details>
-            <details class="project-detail">
-              <summary>Pulse Care - Detail View</summary>
-              <div class="detail-body">
-                <div class="detail-media alt"></div>
-                <div>
-                  <p class="detail-title">Problem</p>
-                  <p>
-                    Patients needed a faster way to get triage support without
-                    long wait times.
-                  </p>
-                  <p class="detail-title">Solution</p>
-                  <p>
-                    Built a secure telehealth app with AI-driven intake and
-                    routing.
-                  </p>
-                  <p class="detail-title">Outcome</p>
-                  <p>
-                    Reduced average response time by 42% and improved patient
-                    satisfaction.
-                  </p>
-                </div>
-              </div>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="section">
-        <div class="container">
-          <div class="section-header">
-            <div>
-              <h2>What I Do</h2>
-              <p class="section-lead">
-                Strategic development support for teams building modern digital
-                products.
-              </p>
-            </div>
-          </div>
-          <div class="service-grid">
-            <article class="service-card">
-              <div class="service-icon">01</div>
-              <h3>Product Engineering</h3>
-              <p>
-                Build and scale web applications with clean systems, metrics,
-                and maintainable architecture.
-              </p>
-            </article>
-            <article class="service-card">
-              <div class="service-icon">02</div>
-              <h3>AI Integrations</h3>
-              <p>
-                Embed LLM features, retrieval pipelines, and automation into
-                existing products.
-              </p>
-            </article>
-            <article class="service-card">
-              <div class="service-icon">03</div>
-              <h3>UX-Focused Frontend</h3>
-              <p>
-                Craft accessible, responsive interfaces with strong typography
-                and content flow.
-              </p>
-            </article>
-            <article class="service-card">
-              <div class="service-icon">04</div>
-              <h3>Team Enablement</h3>
-              <p>
-                Set up design systems, documentation, and workflows for teams
-                shipping faster.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section section-muted">
-        <div class="container contact-grid">
-          <div>
-            <h2>Contact</h2>
-            <p class="section-lead">
-              Interested in working together? Share a quick brief and I will
-              respond within 48 hours.
-            </p>
-            <div class="social-links">
-              <a href="">GitHub</a>
-              <a href="">LinkedIn</a>
-              <a href="mailto:hello@rafinha.dev">Email</a>
-            </div>
-          </div>
-          <form class="contact-form">
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="you@email.com" />
-            </label>
-            <label>
-              Message
-              <textarea
-                name="message"
-                rows="4"
-                placeholder="Tell me about the project"
-              ></textarea>
-            </label>
-            <button class="button primary" type="submit">Send Message</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <p>Copyright 2026 Raffi Ahmad. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#top">Top</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      const navToggle = document.querySelector(".nav-toggle");
-      const mobileNav = document.querySelector(".mobile-nav");
-      const navBackdrop = document.querySelector(".nav-backdrop");
-      const navLinks = document.querySelectorAll(".mobile-nav a");
-      const navClose = document.querySelector(".nav-close");
-      let touchStartX = 0;
-      let touchStartY = 0;
-
-      const closeNav = () => {
-        document.body.classList.remove("nav-open");
-        navToggle.setAttribute("aria-expanded", "false");
-        mobileNav.setAttribute("aria-hidden", "true");
+      tailwind.config = {
+        theme: {
+          extend: {
+            boxShadow: {
+              soft: "0 20px 50px -30px rgba(15, 23, 42, 0.25)",
+            },
+          },
+        },
       };
+    </script>
+  </head>
+  <body class="text-[color:var(--color-ink)]">
+    <div class="relative overflow-hidden">
+      <div
+        class="pointer-events-none absolute left-1/2 top-[-12rem] h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,_rgba(14,_165,_164,_0.25),_rgba(14,_165,_164,_0)_60%)] blur-3xl"
+      ></div>
+      <div
+        class="pointer-events-none absolute -right-24 top-40 h-64 w-64 rounded-full bg-[radial-gradient(circle,_rgba(15,_23,_42,_0.16),_rgba(15,_23,_42,_0)_65%)] blur-2xl"
+      ></div>
 
-      navToggle.addEventListener("click", () => {
-        const isOpen = document.body.classList.toggle("nav-open");
-        navToggle.setAttribute("aria-expanded", String(isOpen));
-        mobileNav.setAttribute("aria-hidden", String(!isOpen));
-      });
+      <header
+        class="sticky top-0 z-40 border-b border-[color:var(--color-line)]/60 bg-[color:var(--color-surface)]/80 backdrop-blur"
+      >
+        <div
+          class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
+        >
+          <a class="text-lg font-semibold tracking-tight" href="#top">
+            Rafinha.dev
+          </a>
+          <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
+            <a class="hover:text-[color:var(--color-accent)]" href="#about"
+              >About</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#projects"
+              >Projects</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#services"
+              >Services</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#contact"
+              >Contact</a
+            >
+          </nav>
+          <a class="btn-primary hidden md:inline-flex" href="#contact"
+            >Hire Me</a
+          >
+          <button
+            id="mobile-menu-btn"
+            class="inline-flex items-center justify-center md:hidden"
+            aria-label="Toggle menu"
+          >
+            <svg
+              class="h-6 w-6 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
 
-      navBackdrop.addEventListener("click", closeNav);
-      navClose.addEventListener("click", closeNav);
-      navLinks.forEach((link) => link.addEventListener("click", closeNav));
+      <aside
+        id="mobile-menu"
+        class="fixed left-0 top-0 h-screen pt-20 z-50 w-64 bg-white shadow-lg transition-transform duration-300 -translate-x-full md:hidden"
+      >
+        <nav class="space-y-1 p-6">
+          <a
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            href="#about"
+          >
+            About
+          </a>
+          <a
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            href="#projects"
+          >
+            Projects
+          </a>
+          <a
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            href="#services"
+          >
+            Services
+          </a>
+          <a
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            href="#contact"
+          >
+            Contact
+          </a>
+          <div class="border-t border-[color:var(--color-line)] pt-6">
+            <a class="btn-primary w-full" href="#contact">Hire Me</a>
+          </div>
+        </nav>
+      </aside>
 
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") {
-          closeNav();
-        }
-      });
+      <div
+        id="mobile-overlay"
+        class="fixed inset-0 z-20 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 md:hidden"
+      ></div>
 
-      mobileNav.addEventListener("touchstart", (event) => {
-        if (!document.body.classList.contains("nav-open")) {
+      <main id="top">
+        <section class="relative">
+          <div
+            class="mx-auto grid max-w-6xl gap-12 px-6 pb-20 pt-16 md:grid-cols-[1.1fr_0.9fr] md:pt-24"
+          >
+            <div class="space-y-8">
+              <div
+                class="inline-flex items-center gap-2 rounded-full border border-[color:var(--color-line)]/70 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[color:var(--color-muted)] shadow-soft"
+              >
+                Available for freelance and full-time roles
+              </div>
+              <div class="space-y-4">
+                <p
+                  class="text-sm font-semibold uppercase tracking-[0.28em] text-[color:var(--color-muted)]"
+                >
+                  Software Developer / AI Enthusiast
+                </p>
+                <h1
+                  class="text-4xl font-semibold leading-tight tracking-tight md:text-6xl"
+                >
+                  Building dependable software that feels effortless to use.
+                </h1>
+                <p class="max-w-xl text-lg text-[color:var(--color-muted)]">
+                  I design and ship web products for teams that care about
+                  reliability, clarity, and measurable outcomes. From crisp UX
+                  to resilient backends, I turn ideas into production-ready
+                  software.
+                </p>
+              </div>
+              <div class="flex flex-wrap items-center gap-4">
+                <a class="btn-primary" href="#projects">View Projects</a>
+                <a class="btn-secondary" href="#contact">Contact Me</a>
+              </div>
+              <div class="grid grid-cols-2 gap-6 sm:grid-cols-3">
+                <div class="card p-4">
+                  <p class="text-2xl font-semibold">6+</p>
+                  <p class="text-sm text-[color:var(--color-muted)]">
+                    Years shipping products
+                  </p>
+                </div>
+                <div class="card p-4">
+                  <p class="text-2xl font-semibold">24</p>
+                  <p class="text-sm text-[color:var(--color-muted)]">
+                    Client launches
+                  </p>
+                </div>
+                <div class="card p-4">
+                  <p class="text-2xl font-semibold">12</p>
+                  <p class="text-sm text-[color:var(--color-muted)]">
+                    OSS contributions
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div
+                class="absolute -left-6 top-12 h-40 w-40 rounded-full bg-[color:var(--color-accent)]/15 blur-2xl"
+              ></div>
+              <div class="card relative overflow-hidden p-6">
+                <div class="flex items-center gap-4">
+                  <div
+                    class="relative h-20 w-20 overflow-hidden rounded-2xl bg-[linear-gradient(145deg,_#0f172a,_#0ea5a4)]"
+                  >
+                    <div class="absolute inset-0 opacity-80 mix-blend-screen">
+                      <img
+                        alt="Profile"
+                        class="h-full w-full object-cover"
+                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-lg font-semibold">Rafinha Ahmad</p>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Software Developer
+                    </p>
+                  </div>
+                </div>
+                <div class="mt-8 space-y-5">
+                  <div>
+                    <p
+                      class="text-xs uppercase tracking-[0.2em] text-[color:var(--color-muted)]"
+                    >
+                      Focus
+                    </p>
+                    <p class="text-base font-medium">
+                      Product engineering, AI workflows, UX polish
+                    </p>
+                  </div>
+                  <div class="grid gap-4 sm:grid-cols-2">
+                    <div
+                      class="rounded-xl border border-[color:var(--color-line)]/70 bg-[color:var(--color-surface-alt)]/70 p-4"
+                    >
+                      <p class="text-sm font-semibold">Currently shipping</p>
+                      <p class="text-sm text-[color:var(--color-muted)]">
+                        Analytics dashboard for fintech
+                      </p>
+                    </div>
+                    <div
+                      class="rounded-xl border border-[color:var(--color-line)]/70 bg-[color:var(--color-surface-alt)]/70 p-4"
+                    >
+                      <p class="text-sm font-semibold">Open to</p>
+                      <p class="text-sm text-[color:var(--color-muted)]">
+                        Remote teams & indie founders
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-6 p-6">
+                <p
+                  class="text-xs uppercase tracking-[0.2em] text-[color:var(--color-muted)]"
+                >
+                  Tech stack
+                </p>
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span class="tag">React</span>
+                  <span class="tag">Next.js</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">LangChain</span>
+                  <span class="tag">Docker</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="bg-[color:var(--color-surface-alt)]">
+          <div
+            class="mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.1fr_0.9fr]"
+          >
+            <div class="space-y-6">
+              <p class="section-label">About</p>
+              <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
+                Thoughtful engineering meets crisp product design.
+              </h2>
+              <p class="text-base text-[color:var(--color-muted)]">
+                I help teams translate ambitious roadmaps into products that
+                perform. My background spans full-stack development, scalable
+                cloud architectures, and AI-powered workflows. I care deeply
+                about readable code, pragmatic architecture, and interfaces that
+                guide users with confidence.
+              </p>
+              <div class="space-y-4">
+                <div class="card p-5">
+                  <p class="text-sm font-semibold">Experience highlights</p>
+                  <div
+                    class="mt-4 space-y-4 border-l border-[color:var(--color-line)] pl-4"
+                  >
+                    <div>
+                      <p class="text-sm font-semibold">
+                        2024 - Lead Developer, Finchlytics
+                      </p>
+                      <p class="text-sm text-[color:var(--color-muted)]">
+                        Delivered a multi-tenant analytics suite that reduced
+                        reporting time by 58%.
+                      </p>
+                    </div>
+                    <div>
+                      <p class="text-sm font-semibold">
+                        2022 - Senior Engineer, Fluxium AI
+                      </p>
+                      <p class="text-sm text-[color:var(--color-muted)]">
+                        Built AI-assisted review pipelines and developer tools
+                        for 30+ enterprise teams.
+                      </p>
+                    </div>
+                    <div>
+                      <p class="text-sm font-semibold">
+                        2020 - Product Engineer, Atlas Studio
+                      </p>
+                      <p class="text-sm text-[color:var(--color-muted)]">
+                        Shipped 12 responsive web applications with a
+                        design-forward approach.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-6">
+              <div>
+                <p class="section-label">Skills</p>
+                <div class="mt-4 space-y-6">
+                  <div>
+                    <p class="text-sm font-semibold">Frontend</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                      <span class="tag">React</span>
+                      <span class="tag">Next.js</span>
+                      <span class="tag">TypeScript</span>
+                      <span class="tag">Tailwind CSS</span>
+                      <span class="tag">Framer Motion</span>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-sm font-semibold">Backend</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                      <span class="tag">Node.js</span>
+                      <span class="tag">NestJS</span>
+                      <span class="tag">PostgreSQL</span>
+                      <span class="tag">Redis</span>
+                      <span class="tag">GraphQL</span>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-sm font-semibold">Tools</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                      <span class="tag">Docker</span>
+                      <span class="tag">GitHub Actions</span>
+                      <span class="tag">AWS</span>
+                      <span class="tag">Vercel</span>
+                      <span class="tag">Figma</span>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-sm font-semibold">AI</p>
+                    <div class="mt-3 flex flex-wrap gap-2">
+                      <span class="tag">LangChain</span>
+                      <span class="tag">OpenAI APIs</span>
+                      <span class="tag">Vector DBs</span>
+                      <span class="tag">Prompt Ops</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card p-6">
+                <p class="text-sm font-semibold">Principles</p>
+                <ul
+                  class="mt-4 space-y-3 text-sm text-[color:var(--color-muted)]"
+                >
+                  <li>Design systems that scale and feel consistent.</li>
+                  <li>Ship fast without compromising maintainability.</li>
+                  <li>Measure impact with analytics that inform decisions.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects">
+          <div class="mx-auto max-w-6xl px-6 py-20">
+            <div class="flex flex-wrap items-end justify-between gap-6">
+              <div class="space-y-3">
+                <p class="section-label">Projects</p>
+                <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
+                  Selected builds that balance clarity and performance.
+                </h2>
+              </div>
+              <a class="btn-secondary" href="#contact">Start a project</a>
+            </div>
+            <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#0f172a,_#14b8a6)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">Nimbus Finance</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Wealth management dashboard with real-time insights and
+                      automated alerts.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Supabase</span>
+                    <span class="tag">Stripe</span>
+                  </div>
+                </div>
+              </article>
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#1e293b,_#38bdf8)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">PulseCare</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Telehealth platform with secure messaging and AI visit
+                      summaries.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">AWS</span>
+                  </div>
+                </div>
+              </article>
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#0f172a,_#f97316)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">Atlas Workbench</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Internal tooling suite for distributed product teams and
+                      OKR tracking.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">Vue</span>
+                    <span class="tag">GraphQL</span>
+                    <span class="tag">PostgreSQL</span>
+                  </div>
+                </div>
+              </article>
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#1f2937,_#60a5fa)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">SignalStack</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Event-driven monitoring pipeline with custom alerting and
+                      reporting.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">Go</span>
+                    <span class="tag">Kafka</span>
+                    <span class="tag">Grafana</span>
+                  </div>
+                </div>
+              </article>
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#0f172a,_#a855f7)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">Aurora Labs</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      AI-powered research workspace for distributed product
+                      teams.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">Python</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Pinecone</span>
+                  </div>
+                </div>
+              </article>
+              <article class="card overflow-hidden">
+                <div
+                  class="h-44 bg-[linear-gradient(135deg,_#0f172a,_#22c55e)]"
+                ></div>
+                <div class="space-y-4 p-6">
+                  <div>
+                    <h3 class="text-lg font-semibold">Orbit CRM</h3>
+                    <p class="text-sm text-[color:var(--color-muted)]">
+                      Sales CRM with automation workflows and AI lead scoring.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="tag">Svelte</span>
+                    <span class="tag">Firebase</span>
+                    <span class="tag">OpenAI</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="mt-14 grid gap-8 rounded-3xl border border-[color:var(--color-line)] bg-white p-8 shadow-soft lg:grid-cols-[1.2fr_0.8fr]"
+            >
+              <div class="space-y-6">
+                <div>
+                  <p class="section-label">Project Detail</p>
+                  <h3 class="text-2xl font-semibold">
+                    Finchlytics Risk Command Center
+                  </h3>
+                </div>
+                <div class="space-y-4 text-sm text-[color:var(--color-muted)]">
+                  <p>
+                    Built an AI-assisted dashboard for compliance teams to
+                    monitor transactions, flag anomalies, and automate evidence
+                    collection.
+                  </p>
+                  <div>
+                    <p class="font-semibold text-[color:var(--color-ink)]">
+                      Problem
+                    </p>
+                    <p>
+                      Analysts struggled with fragmented data and slow manual
+                      checks across multiple systems.
+                    </p>
+                  </div>
+                  <div>
+                    <p class="font-semibold text-[color:var(--color-ink)]">
+                      Solution
+                    </p>
+                    <p>
+                      Delivered a unified interface with event streaming, AI
+                      summaries, and audit-ready export flows.
+                    </p>
+                  </div>
+                  <div>
+                    <p class="font-semibold text-[color:var(--color-ink)]">
+                      Outcome
+                    </p>
+                    <p>
+                      Reduced investigation time by 47% and increased team
+                      throughput by 2.4x.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                  <a class="btn-primary" href="#">Live Demo</a>
+                  <a class="btn-secondary" href="#">Repository</a>
+                </div>
+              </div>
+              <div class="relative">
+                <div
+                  class="h-full min-h-[18rem] overflow-hidden rounded-2xl border border-[color:var(--color-line)] bg-[linear-gradient(135deg,_#0f172a,_#0ea5a4)]"
+                >
+                  <img
+                    alt="Dashboard screenshot"
+                    class="h-full w-full object-cover opacity-80"
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+                  />
+                </div>
+                <div
+                  class="absolute -bottom-6 -left-6 hidden rounded-2xl border border-[color:var(--color-line)] bg-white p-4 shadow-soft lg:block"
+                >
+                  <p
+                    class="text-xs uppercase tracking-[0.2em] text-[color:var(--color-muted)]"
+                  >
+                    Stack
+                  </p>
+                  <div class="mt-3 flex flex-wrap gap-2">
+                    <span class="tag">Next.js</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Kafka</span>
+                    <span class="tag">Snowflake</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="bg-[color:var(--color-surface-alt)]">
+          <div class="mx-auto max-w-6xl px-6 py-20">
+            <div class="flex flex-wrap items-end justify-between gap-6">
+              <div>
+                <p class="section-label">Services</p>
+                <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
+                  What I do to move teams forward.
+                </h2>
+              </div>
+              <a class="btn-secondary" href="#contact">Let us talk</a>
+            </div>
+            <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <article class="card p-6">
+                <div class="icon-circle">
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 12h18M3 6h18M3 18h18"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-lg font-semibold">Product Engineering</h3>
+                <p class="mt-2 text-sm text-[color:var(--color-muted)]">
+                  Roadmap planning, scalable architecture, and pixel-precise
+                  delivery.
+                </p>
+              </article>
+              <article class="card p-6">
+                <div class="icon-circle">
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 6v6l4 2"
+                    />
+                    <circle cx="12" cy="12" r="9" />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-lg font-semibold">AI Enablement</h3>
+                <p class="mt-2 text-sm text-[color:var(--color-muted)]">
+                  Workflow automation, LLM orchestration, and model monitoring.
+                </p>
+              </article>
+              <article class="card p-6">
+                <div class="icon-circle">
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 7h16M4 12h16M4 17h10"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-lg font-semibold">Design Systems</h3>
+                <p class="mt-2 text-sm text-[color:var(--color-muted)]">
+                  Component libraries, accessibility audits, and UX refinements.
+                </p>
+              </article>
+              <article class="card p-6">
+                <div class="icon-circle">
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 3l7 4v6c0 4-3 6-7 8-4-2-7-4-7-8V7l7-4z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="mt-4 text-lg font-semibold">Quality Engineering</h3>
+                <p class="mt-2 text-sm text-[color:var(--color-muted)]">
+                  Automated testing, reliability checklists, and performance
+                  reviews.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="mx-auto max-w-6xl px-6 py-20">
+            <div class="grid gap-10 lg:grid-cols-[1fr_1.1fr]">
+              <div class="space-y-6">
+                <p class="section-label">Contact</p>
+                <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
+                  Let us build something reliable together.
+                </h2>
+                <p class="text-base text-[color:var(--color-muted)]">
+                  Share a quick brief, and I will follow up with a suggested
+                  roadmap, timeline, and next steps within 48 hours.
+                </p>
+                <div class="card space-y-4 p-6">
+                  <div>
+                    <p
+                      class="text-xs uppercase tracking-[0.2em] text-[color:var(--color-muted)]"
+                    >
+                      Email
+                    </p>
+                    <a
+                      class="text-sm font-semibold"
+                      href="mailto:hello@rafinha.dev"
+                      >hello@rafinha.dev</a
+                    >
+                  </div>
+                  <div>
+                    <p
+                      class="text-xs uppercase tracking-[0.2em] text-[color:var(--color-muted)]"
+                    >
+                      Social
+                    </p>
+                    <div class="mt-2 flex flex-wrap gap-3 text-sm font-medium">
+                      <a class="hover:text-[color:var(--color-accent)]" href="#"
+                        >GitHub</a
+                      >
+                      <a class="hover:text-[color:var(--color-accent)]" href="#"
+                        >LinkedIn</a
+                      >
+                      <a class="hover:text-[color:var(--color-accent)]" href="#"
+                        >Email</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form class="card space-y-6 p-8">
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <label class="space-y-2 text-sm font-medium">
+                    Name
+                    <input
+                      class="w-full rounded-xl border border-[color:var(--color-line)] bg-white px-4 py-3 text-sm outline-none transition focus:border-[color:var(--color-accent)]"
+                      placeholder="Your name"
+                      type="text"
+                    />
+                  </label>
+                  <label class="space-y-2 text-sm font-medium">
+                    Email
+                    <input
+                      class="w-full rounded-xl border border-[color:var(--color-line)] bg-white px-4 py-3 text-sm outline-none transition focus:border-[color:var(--color-accent)]"
+                      placeholder="you@email.com"
+                      type="email"
+                    />
+                  </label>
+                </div>
+                <label class="space-y-2 text-sm font-medium">
+                  Message
+                  <textarea
+                    class="min-h-[140px] w-full rounded-xl border border-[color:var(--color-line)] bg-white px-4 py-3 text-sm outline-none transition focus:border-[color:var(--color-accent)]"
+                    placeholder="Tell me about your project"
+                  ></textarea>
+                </label>
+                <button class="btn-primary w-full" type="submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer
+        class="border-t border-[color:var(--color-line)] bg-[color:var(--color-surface)]"
+      >
+        <div
+          class="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <p class="text-sm font-semibold">Rafinha Ahmad</p>
+            <p class="text-sm text-[color:var(--color-muted)]">
+              Software Developer and AI Enthusiast
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-6 text-sm font-medium">
+            <a class="hover:text-[color:var(--color-accent)]" href="#about"
+              >About</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#projects"
+              >Projects</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#services"
+              >Services</a
+            >
+            <a class="hover:text-[color:var(--color-accent)]" href="#contact"
+              >Contact</a
+            >
+          </div>
+          <p class="text-sm text-[color:var(--color-muted)]">
+            2026 Rafinha Ahmad. All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("mobile-menu-btn");
+        const menu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("mobile-overlay");
+
+        if (!btn || !menu || !overlay) {
+          console.error("Mobile menu element missing");
           return;
         }
-        const touch = event.touches[0];
-        touchStartX = touch.clientX;
-        touchStartY = touch.clientY;
-      });
 
-      mobileNav.addEventListener("touchend", (event) => {
-        if (!document.body.classList.contains("nav-open")) {
-          return;
-        }
-        const touch = event.changedTouches[0];
-        const deltaX = touch.clientX - touchStartX;
-        const deltaY = touch.clientY - touchStartY;
+        btn.onclick = () => {
+          menu.classList.toggle("-translate-x-full");
+          overlay.classList.toggle("opacity-0");
+          overlay.classList.toggle("pointer-events-none");
+        };
 
-        if (deltaX > 80 && Math.abs(deltaX) > Math.abs(deltaY)) {
-          closeNav();
-        }
+        overlay.onclick = () => {
+          menu.classList.add("-translate-x-full");
+          overlay.classList.add("opacity-0", "pointer-events-none");
+        };
+
+        menu.querySelectorAll("a").forEach((link) => {
+          link.onclick = () => {
+            menu.classList.add("-translate-x-full");
+            overlay.classList.add("opacity-0", "pointer-events-none");
+          };
+        });
       });
     </script>
   </body>
