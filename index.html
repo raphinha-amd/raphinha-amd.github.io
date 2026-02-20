@@ -17,6 +17,13 @@
             boxShadow: {
               soft: "0 20px 50px -30px rgba(15, 23, 42, 0.25)",
             },
+            colors: {
+              surface: "var(--color-surface)",
+              surfaceAlt: "var(--color-surface-alt)",
+              line: "var(--color-line)",
+              accent: "var(--color-accent)",
+              ink: "var(--color-ink)",
+            },
           },
         },
       };
@@ -32,7 +39,7 @@
       ></div>
 
       <header
-        class="sticky top-0 z-40 border-b border-[color:var(--color-line)]/60 bg-[color:var(--color-surface)]/80 backdrop-blur"
+        class="sticky top-0 z-40 border-b border-line/60 bg-surface/80 backdrop-blur"
       >
         <div
           class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
@@ -85,25 +92,25 @@
       >
         <nav class="space-y-1 p-6">
           <a
-            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-surfaceAlt hover:text-accent"
             href="#about"
           >
             About
           </a>
           <a
-            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-surfaceAlt hover:text-accent"
             href="#projects"
           >
             Projects
           </a>
           <a
-            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-surfaceAlt hover:text-accent"
             href="#services"
           >
             Services
           </a>
           <a
-            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-[color:var(--color-surface-alt)] hover:text-[color:var(--color-accent)]"
+            class="block rounded-lg px-4 py-3 text-sm font-medium transition hover:bg-surfaceAlt hover:text-accent"
             href="#contact"
           >
             Contact
@@ -752,9 +759,7 @@
         </section>
       </main>
 
-      <footer
-        class="border-t border-[color:var(--color-line)] bg-[color:var(--color-surface)]"
-      >
+      <footer class="border-t border-[color:var(--color-line)] bg-surface">
         <div
           class="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between"
         >
